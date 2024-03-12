@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OOP</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="main-cont">
+      <div class="input-cont"></div>
+    </div>
+
+    <div class="game-cont">
+      <div class="show-word-cont">
+        <div id="show-word"></div>
+      </div>
+
+      <div class="type-cont">
+        <p id="word">Press Start to begin</p>
+        <input type="text" id="input" disabled />
+      </div>
+
+      <div class="option-btn">
+        <button id="start-btn">START</button>
+        <button id="skip-btn">SKIP</button>
+        <button id="end-btn">END</button>
+        <div id="score-text"></div>
+      </div>
+    </div>
+
+    <div class="add-words">
+      <h4>WORDS YOU WANT TO PRACTICE</h4>
+      <input type="text" id="user-input" placeholder="ENTER TO SAVE WORDS" />
+      <button id="delete-btn">DELETE ALL</button>
+      <button id="display-btn">DISPLAY</button>
+      <div id="words-cont"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(212, 212, 212);
+}
+
+.main-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game-cont {
+  /* border: solid black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.type-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.option-btn > button {
+  margin: 0px 15px;
+}
+
+#word {
+  font-size: 30px;
+}
+
+.show-word-cont {
+  /* border: solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 90%;
+  height: 500px;
+}
+
+.display-word-cont {
+  display: flex;
+  gap: 5px;
+}
+
+.add-words {
+  max-width: 500px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+#words-cont {
+  display: flex;
+  flex-direction: column;
+  max-width: 80px;
+}
+
+#show-word {
+  font-size: 200px;
+}
+
+.timer {
+  font-size: 150px;
+}
